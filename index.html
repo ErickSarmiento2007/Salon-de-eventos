@@ -178,6 +178,49 @@
                 height: 300px;
             }
         }
+	    .patitas-ad {
+    background-color: #f8f8f8;
+    padding: 20px;
+    margin: 30px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.patitas-ad img {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.patitas-content {
+    text-align: left;
+}
+
+.patitas-ad a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #ff6347;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.patitas-ad a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .patitas-ad {
+        flex-direction: column;
+        text-align: center;
+    }
+    .patitas-content {
+        text-align: center;
+    }
+}
     </style>
 <style type="text/css">
 .grande { font-size: 60px; }
@@ -253,7 +296,16 @@
                 <p>"Excelente servicio y atención. Lo recomiendo 100%." - Juan</p>
             </div>
         </section>
-
+<div class="patitas-ad">
+    <img src="publi1.jfif" alt="Patitas en Paz">
+    <div class="patitas-content">
+        <h3>Únete a nuestra causa</h3>
+        <p>En Patitas en Paz, despedimos con amor a quienes dejaron huella. También apoyamos a quienes comparten nuestro compromiso por nuestros amiguitos.</p>
+        <p>Orgullosos patrocinadores de empresas comprometidas con el bienestar animal.</p>
+        <p>TEL: 6565803196</p>
+        <a href="https://dazzlerrk800.github.io/PatitasFelices/index.html" target="_blank">Visita Patitas Felices</a>
+    </div>
+</div>
         <section id="contacto">
             <h2>Contacto</h2>
             <form action="https://formspree.io/f/mvojnqkj" method="POST">
