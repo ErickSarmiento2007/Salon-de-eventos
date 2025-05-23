@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salones de Eventos - Eventos Elegantes</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&amp;display=swap">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #000000;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        
+        header-content {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 15px;
+        }
+      
+        header logo {
+          height: 60px; 
+          width: auto;
+        }
+      
+        header h1 {
+          color: #fff;
+          font-size: 2em;
+          margin: 0;
+        }
+        
+        
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #444;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #ff6347;
+        }
+
+        .hero {
+            background: url('https://edgarhermosillo.com.mx/wp-content/uploads/2024/08/BENAVENTO-SALON-DE-EVENTOS-1-1080x675.webp') no-repeat center center/cover;
+            height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-align: center;
+            animation: slideIn 1.5s ease-in;
+        }
+
+        .hero h2 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 1.5em;
+            margin: 10px 0 0;
+        }
+
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .gallery img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .cta {
+            background: #ff6347;
+            color: #fff;
+            text-align: center;
+            padding: 50px 20px;
+            margin-top: 40px;
+            animation: fadeInUp 2s ease-in;
+        }
+
+        .cta h2 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .cta button {
+            background: #333;
+            color: #fff;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .cta button:hover {
+            background: #555;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideIn {
+            from { transform: translateY(-50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        @keyframes fadeInUp {
+            from { transform: translateY(50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        @media (max-width: 768px) {
+            .hero h2 {
+                font-size: 2em;
+            }
+
+            .hero p {
+                font-size: 1.2em;
+            }
+
+            .gallery img {
+                width: 100%;
+                height: auto;
+            }
+
+            iframe {
+                width: 100%;
+                height: 300px;
+            }
+        }
+    </style>
+<style type="text/css">
+.grande { font-size: 60px; }
+</style>
+<script>
+// Escribir aqui el código Javascript
+</script>
+</head>
+<body>
+
+    <header>
+        <div class="header-content">
+          <img src="Eventos.jpg" alt="Logo salon de eventos" class="logo">
+          <h1> Salones de Eventos Lujosos </h1>
+        </div>
+    </header>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#galeria">Galería</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+	
+    <section class="hero" id="inicio">
+        <div>
+            <h2>Bienvenidos a Nuestros Salones</h2>
+            <p>El lugar perfecto para tus eventos especiales</p>
+        </div>
+    </section>
+
+    <div class="container">
+        <section id="galeria">
+            <h2>Galería</h2>
+            <div class="gallery">
+              <a href = "D:\Salon de eventos\salon1.html"> 
+                <img src="https://cdn0.bodas.com.mx/vendor/2121/3_2/640/JPG/la%20foto%203_5_42121.jpeg" alt="Salón 1">
+              </a>
+			  <a href = "D:\Salon de eventos\salon2.html">
+                <img src="https://cdn0.bodas.com.mx/vendor/7210/3_2/640/jpg/16-de-octubre-2021_5_107210-164246270891791.jpeg" alt="Salón 2">
+			   </a>
+			  <a href = "D:\Salon de eventos\salon3.html">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPFhjXDDKAYBcAFhE-by88P-Osp0_e-wh3hA&s" alt="Salón 3">
+				</a>
+			  <a href = "D:\Salon de eventos\salon4.html">
+                <img src="https://turismo.guadalajaravisit.com/wp-content/uploads/2019/11/hacienda-magdalena.jpg" alt="Salón 4">
+				</a>
+            </div>
+        </section>
+
+        <section id="servicios">
+            <h2>Servicios</h2>
+            <p>Ofrecemos una amplia gama de servicios para hacer de tu evento una experiencia inolvidable:</p>
+            <ul>
+                <li>Salones amplios y modernos</li>
+                <li>Catering de alta calidad</li>
+                <li>Decoración personalizada</li>
+                <li>Equipo de sonido e iluminación</li>
+            </ul>
+        </section>
+
+        <section id="sobre-nosotros">
+            <h2>Sobre Nosotros</h2>
+            <p>Somos una empresa con más de 10 años de experiencia en la organización de eventos. Nos especializamos en bodas, fiestas corporativas y eventos sociales.</p>
+        </section>
+
+        <section id="testimonios">
+            <h2>Testimonios</h2>
+            <div class="testimonio">
+                <p>"¡El mejor lugar para mi boda! Todo fue perfecto." - María</p>
+            </div>
+            <div class="testimonio">
+                <p>"Excelente servicio y atención. Lo recomiendo 100%." - Juan</p>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="https://formspree.io/f/mvojnqkj" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required="">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required="">
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required=""></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <section id="ubicacion">
+            <h2>Ubicación</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12345.6789!2d-0.123456!3d51.123456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTHCsDA3JzI0LjQiTiAwwrAwNyczOC4xIlc!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+    </div>
+
+    <section class="cta">
+        <h2>¿Listo para reservar tu evento?</h2>
+        <button onclick="alert('Gracias por tu interés! Nos pondremos en contacto contigo pronto.')">Contáctanos</button>
+    </section>
+
+    <footer>
+        <p>© 2025 Salones de Eventos Elegantes. Todos los derechos reservados.</p>
+        <p>Contacto: info@eventoselegantes.com | Tel: +123 456 7890</p>
+    </footer>
+
+
+
+</body></html>

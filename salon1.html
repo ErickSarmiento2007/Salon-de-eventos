@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+ <title> Salon 1 </title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salón 1 - Eventos Elegantes</title>
+    <link rel="stylesheet" href="styles.css">
+  <style>
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #000000;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+header .logo {
+    height: 60px;
+    width: auto;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 2em;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background: #444;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff6347;
+}
+
+.hero {
+    background: url('https://cdn0.bodas.com.mx/vendor/2121/3_2/640/JPG/la%20foto%203_5_42121.jpeg') no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    animation: slideIn 1.5s ease-in;
+}
+
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.gallery img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+@keyframes slideIn {
+    from { transform: translateY(-50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+
+    <header>
+        <div class="header-content">
+            <img src="D:\Salon de eventos\Eventos.jpg" alt="Logo de Salones de Eventos Elegantes" class="logo">
+            <h1>Salón 1 - Eventos Elegantes</h1>
+        </div>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="salon1.html">Salón 1</a>
+        <a href="salon2.html">Salón 2</a>
+        <a href="salon3.html">Salón 3</a>
+        <a href="salon4.html">Salón 4</a>
+    </nav>
+
+    <section class="hero">
+        <div>
+            <h2>Salón Saturno</h2>
+            <p>Un espacio moderno y elegante para tus eventos</p>
+        </div>
+    </section>
+
+    <div class="container">
+        <section id="descripcion">
+            <h2>Descripción</h2>
+            <p>El Salón 1 es perfecto para eventos corporativos, bodas y fiestas. Con capacidad para 200 personas, ofrece un ambiente sofisticado y equipamiento de última generación.</p>
+        </section>
+
+        <section id="galeria">
+            <h2>Galería</h2>
+            <div class="gallery">
+                <img src="https://cdn0.bodas.com.mx/vendor/2121/3_2/960/jpg/negro-con-rojo_5_42121-159285707011186.jpeg" alt="Salón 1 - Imagen 1">
+                <img src="https://cdn0.bodas.com.mx/vendor/2121/3_2/640/jpg/Imagen8_5_42121.webp" alt="Salón 1 - Imagen 2">
+            </div>
+        </section>
+
+        <section id="servicios">
+            <h2>Servicios</h2>
+            <ul>
+                <li>Amplio espacio con capacidad para 200 personas</li>
+                <li>Equipo de sonido e iluminación profesional</li>
+                <li>Catering de alta calidad</li>
+                <li>Estacionamiento gratuito</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Salones de Eventos Elegantes. Todos los derechos reservados.</p>
+        <p>Contacto: info@eventoselegantes.com | Tel: +123 456 7890</p>
+    </footer>
+
+</body>
+</html>
