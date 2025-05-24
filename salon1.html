@@ -108,6 +108,56 @@ footer {
     from { transform: translateY(-50px); opacity: 0; }
     to { transform: translateY(0); opacity: 1; }
     }
+   .cine-ad {
+    background-color: #1a1a1a;
+    padding: 20px;
+    margin: 30px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    color: white;
+}
+
+.cine-ad img {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+    border: 2px solid #ff6347;
+}
+
+.cine-content {
+    text-align: left;
+}
+
+.cine-ad a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #ff6347;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: rgba(255,255,255,0.1);
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.cine-ad a:hover {
+    background-color: #ff6347;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .cine-ad {
+        flex-direction: column;
+        text-align: center;
+    }
+    .cine-content {
+        text-align: center;
+    }
+}
   </style>
 </head>
 <body>
@@ -139,7 +189,16 @@ footer {
             <h2>Descripción</h2>
             <p>El Salón 1 es perfecto para eventos corporativos, bodas y fiestas. Con capacidad para 200 personas, ofrece un ambiente sofisticado y equipamiento de última generación.</p>
         </section>
-
+<div class="cine-ad">
+    <img src="publi2.jfif" alt="StarCinema">
+    <div class="cine-content">
+        <h3>Vive la magia del cine en StarCinema</h3>
+        <p>Las mejores películas, la mejor pantalla, y el sonido que te hará vibrar.</p>
+        <p>Estrenos cada semana</p>
+        <p>Salas cómodas y modernas</p>
+        <a href="https://omaribarra007.github.io/cine/" target="_blank">Visita StarCinema</a>
+    </div>
+</div>
         <section id="galeria">
             <h2>Galería</h2>
             <div class="gallery">
